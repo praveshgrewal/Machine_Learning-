@@ -4,3 +4,4 @@ pandas
 lxml
 openpyxl
 matplotlib
+seaborn
