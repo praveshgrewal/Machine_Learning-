@@ -1,10 +1,4 @@
-'''
-real world example: multithreading for I/O bound tasks
-scenario: web scraping
-web scraping often invloves making numerus network requestas to fetch web pages. these tasks are I/O bound 
-because they spend a lot of time waiting for responses from the server. multithreading can significantly
-improve the performance of these tasks.
-'''
+
 
 import threading
 import requests
@@ -33,3 +27,7 @@ for t in threads:
     t.join()
 
 print("data fetched successfully")  
+
+
+
+# Trail Change to take care of my branch 
