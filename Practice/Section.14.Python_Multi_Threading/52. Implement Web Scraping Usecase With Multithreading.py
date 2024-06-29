@@ -32,4 +32,4 @@ for url in urls:
 for t in threads:
     t.join()
 
-print("all web pages fetched")
+print("data fetched successfully")  
