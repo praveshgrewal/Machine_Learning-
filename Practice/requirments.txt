@@ -5,3 +5,4 @@ lxml
 openpyxl
 matplotlib
 seaborn
+bs4
