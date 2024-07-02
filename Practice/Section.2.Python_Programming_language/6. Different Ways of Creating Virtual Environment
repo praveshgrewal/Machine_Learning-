@@ -1,0 +1,21 @@
+using python command create virtual enviroment
+$python -m venv myenv(folder name)
+for activate this 
+-- in side folder we have scripts and a activate file and we need to excecute this file
+$ myenv/Secripts/activate
+now my virtual enviroment is active 
+by default this use verson of python
+#deactivate (command for deactivate virtul enviroment)
+
+--------------------
+$ pip install virtualenv
+$ virtual -p python3 virtual_env_name
+$virtualenv_name\scripts\activate
+$deactivate
+
+----------------------
+by using conda create
+$conda create -p venv1 python==3.12 -y
+$conda activate venv1
+$ conda deactivate
+
